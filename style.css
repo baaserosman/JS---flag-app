@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  height: 100vh;
+  background: linear-gradient(to top left, #b2bebf, #486966);
+  font-weight: bold;
+  font-style: oblique;
+}
+
+header h2 {
+  margin-top: 5rem;
+  font-size: 60px;
+  font-weight: bold;
+  text-shadow: 0 5px 5px rgba(230, 34, 34, 0.795);
+}
+
+.btn {
+  box-shadow: 0 5px 5px rgba(230, 34, 34, 0.795);
+  background-color: #f1b84e;
+}
+
+.input-group-text {
+  background-color: rgba(230, 34, 34, 0.795);
+  font-weight: bold;
+  font-style: oblique;
+  text-shadow: 0 5px 5px rgba(199, 199, 197, 0.795);
+}
+.form-control {
+  font-weight: bold;
+  font-style: oblique;
+}
+.form-select {
+  border-radius: 20px;
+  color: #343535;
+  font-weight: bold;
+  font-style: oblique;
+}
