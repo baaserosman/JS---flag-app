@@ -74,7 +74,7 @@ const renderCountry = (country) => {
          <p class="card-text">${region}</p>
       </div>
       <ul class="list-group list-group-flush">
-         <li class="list-group-item"><i class="fas fa-lg fa-landmark"></i> ${capital}</li>
+         <li class="list-group-item"><i class="fas fa-lg fa-landmark"></i>${capital}</li>
          <li class="list-group-item"><i class="fas fa-lg fa-comments"></i>${Object.values(
            languages
          )} </li>

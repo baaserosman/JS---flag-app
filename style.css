@@ -20,10 +20,20 @@ header h2 {
   background-color: #f1b84e;
 }
 
+.input-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  max-width: 500px;
+  min-width: none;
+}
+
 .input-group-text {
   background-color: rgba(230, 34, 34, 0.795);
   font-weight: bold;
   font-style: oblique;
+  overflow: hidden;
   text-shadow: 0 5px 5px rgba(199, 199, 197, 0.795);
 }
 .form-control {
@@ -31,6 +41,7 @@ header h2 {
   font-style: oblique;
 }
 .form-select {
+  max-width: 630px;
   border-radius: 20px;
   color: #343535;
   font-weight: bold;

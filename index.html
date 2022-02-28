@@ -21,23 +21,34 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>   
+    <header>
       <h2>Flag App</h2>
     </header>
-    <div class="d-flex justify-content-center m-5"">
-      <div class="input-group w-75">
-        <span class="input-group-text "> Your Country features</span>
-        <input type="text" aria-label="First name" id ="name" class="form-control" placeholder="Country name"/>
-        <input type="text" aria-label="Last name" id ="code" class="form-control" placeholder="Country code" />
-        
+    <div class="d-flex justify-content-center m-5">
+      <div class="input-group row">
+        <span class="input-group-text col-12 col-md-4"> Selected Country</span>
+        <input
+          type="text"
+          aria-label="First name"
+          id="name"
+          class="col-12 col-md-3 form-control"
+          placeholder="Country name"
+        />
+        <input
+          type="text"
+          aria-label="Last name"
+          id="code"
+          class="col-12 col-md-3 form-control"
+          placeholder="Country code"
+        />
       </div>
-      <button class="btn mx-3 btn-warning ">Search</button>
+      <button class="btn mx-3 btn-warning">Search</button>
     </div>
 
     <div class="d-flex justify-content-center m-5">
-      <select class="form-select w-75" aria-label="Default select example">
-  <option selected>Select Country</option>  
-</select>
+      <select class="form-select" aria-label="Default select example">
+        <option selected>Select Country</option>
+      </select>
     </div>
     <main class="container">
       <article
